@@ -1,0 +1,63 @@
+@import url("../../fonts/stylesheet.css");
+
+:root {
+    --color-open-card: #E5E5E5;
+    --color-card-text: #E6E6E6;
+    --color-main: #0083FC;
+    --color-count: #FF5533;
+    --color-white: #FFF;
+}
+
+
+.game__body {
+    font-family: "Formular";
+    color: var(--color-main);
+    display: grid;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.game__header {
+    grid-column: 1 / -1;
+    margin: 0 auto;
+    font-size: 35px;
+}
+
+.game-wrapper {
+    display: grid;
+    grid-template-columns: min-content auto min-content;
+    column-gap: 90px;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 14px;
+    column-gap: 14px;
+
+    width: 500px;
+    height: 500px;
+}
+
+.game-info {
+    font-size: 24px;
+    color: var(--color-main);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.game-count {
+    font-weight: 700;
+    color: var(--color-count);
+}
+
+.info__text {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}

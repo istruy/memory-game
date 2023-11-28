@@ -1,0 +1,23 @@
+.card-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 115px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.open-card {
+    background-color: var(--color-open-card);
+}
+
+.close-card {
+    background-color: var(--color-main);
+    color: var(--color-card-text);
+}
+
+.disable {
+    pointer-events: none;
+}

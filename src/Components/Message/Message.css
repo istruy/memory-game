@@ -1,0 +1,35 @@
+.message__wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.message__body {
+    border-radius: 12px;
+    background: #F53;
+    width: 689px;
+    height: 372px;
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.message__button {
+    border-width: 0;
+    font-size: inherit;
+    border-radius: 12px;
+    background: #0083FC;
+    width: 340px;
+    height: 64px;
+    font-weight: 600;
+    color: var(--color-white);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
